@@ -1,0 +1,271 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Link",
+				"LinkedList	class"
+			],
+			[
+				"u",
+				"u32int	typedef"
+			],
+			[
+				"mul",
+				"multiboot_info	struct"
+			],
+			[
+				"mu",
+				"multiboot_info	struct"
+			],
+			[
+				"someVa",
+				"someVal2"
+			],
+			[
+				"p",
+				"puts(char *c)	void"
+			],
+			[
+				"v",
+				"vga	vgaController"
+			],
+			[
+				"increment",
+				"incrementDigitsNFromCenter"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"c++",
+				"Set Syntax: Objective-C++"
+			],
+			[
+				"sync",
+				"Set Syntax: C"
+			],
+			[
+				"x",
+				"Set Syntax: x86 Assembly"
+			],
+			[
+				"x86",
+				"Set Syntax: x86 Assembly"
+			],
+			[
+				"assem",
+				"Set Syntax: x86 Assembly"
+			],
+			[
+				"obj",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"x8",
+				"Set Syntax: x86 Assembly"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"hask",
+				"Set Syntax: Haskell"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"synobj",
+				"Set Syntax: Objective-C++"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/alaroldai/Desktop/conway/conway.mm",
+		"/Users/alaroldai/Desktop/conway/conway.sublime-project",
+		"/Users/alaroldai/Desktop/conway/SConstruct",
+		"/Users/alaroldai/Library/Application Support/Sublime Text 2/Packages/SublimeClang/SublimeClang.sublime-settings",
+		"/Users/alaroldai/Library/Application Support/Sublime Text 2/Packages/User/SublimeClang.sublime-settings",
+		"/Users/alaroldai/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/rakefile",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/arch/x32/descriptorTablesASM.s",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/coreDrivers/vga.mm",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/arch/x32/descriptorTables.mm",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/init/init.mm",
+		"/Users/alaroldai/Desktop/test.mm",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/init/rakefile",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/Research/radix/radixDemo.cpp",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/arch/x32/x32.h",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/physmem/physmem.h",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/arch/x32/cpuidTest.s",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/utility/utility.h",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/platform/multiboot/mboot.s",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/physmem/physmem.mm",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/rakefile",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/utility/rakefile",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/coreDrivers/rakefile",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/arch/rakefile",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/coreDrivers/vga.h",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/arch/x32/x32.mm",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/build/utility.elf",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/src/platform/rakefile",
+		"/Users/alaroldai/Dropbox/Projects/Icarus/ICARUS-0.t6/Rakefile",
+		"/Users/alaroldai/Desktop/squares.py",
+		"/Users/alaroldai/Desktop/objc++/hello.mm",
+		"/Users/alaroldai/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.py",
+		"/Users/alaroldai/Desktop/objc++/rakefile",
+		"/Users/alaroldai/Desktop/objc++/untitled.mm"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"|",
+			"/!/",
+			"/!",
+			"/~/",
+			" / ",
+			"ecx",
+			"->",
+			"vga_",
+			"source"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,5 @@
+{
+	"settings" : {
+		"sublimeclang_options" : ["-framework SDL", "-ferror-limit=0", "-Wno-deprecated-declarations"]
+	}
+}
