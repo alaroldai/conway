@@ -18,6 +18,7 @@ class Conway {
 	SDL_Surface *frontBuffer, *backBuffer;
 	BOOL done;
 	BOOL screenIsFrontBuffer;
+	UInt32 targetFrameRate;
 
 	public: 
 	Conway() {
@@ -32,6 +33,8 @@ class Conway {
 			320,
 			240
 		};
+
+		targetFrameRate = 1000 / 10;
 
 		screen = SDL_SetVideoMode(resolution.width, resolution.height, 32, SDL_SWSURFACE | SDL_DOUBLEBUF);
 		frontBuffer =
@@ -198,7 +201,6 @@ class Conway {
 	}
 
 	int render() {
-		cout << "rendering" << endl;
 		SDL_Surface *nextBuffer = screenIsFrontBuffer ? backBuffer : frontBuffer;
 		copySurface(nextBuffer, screen);
 		screenIsFrontBuffer = !screenIsFrontBuffer;
@@ -210,6 +212,8 @@ class Conway {
 		setup();
 		while (!done) {
 
+			UInt32 frame_start = SDL_GetTicks();
+
 			/* Handle events */
 			handleEvents();
 
@@ -218,6 +222,11 @@ class Conway {
 
         	/* Render */
         	render();
+
+        	UInt32 frame_end = SDL_GetTicks();
+        	if (frame_end - frame_start < targetFrameRate) {
+        		SDL_Delay(targetFrameRate - (frame_end - frame_start));
+        	}
 		}
 		tearDown();
 		return 0;
